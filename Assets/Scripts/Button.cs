@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.EventSystems;
 
-public class Button : MonoBehaviour, IPointerClickHandler/*, IPointerDownHandler, IPointerUpHandler, IPointerExitHandler, IPointerEnterHandler */
+public class Button : MonoBehaviour, IPointerClickHandler
 {
     public LoadSprites LoadSpritesParent;
     public Animator Animator;
@@ -15,24 +15,4 @@ public class Button : MonoBehaviour, IPointerClickHandler/*, IPointerDownHandler
             LoadSpritesParent.Load();
         _spritesIsLoaded = true;
     }
-
-    //public void OnPointerDown(PointerEventData eventData) 
-    //{
-
-    //}
-
-    //public void OnPointerEnter(PointerEventData eventData) 
-    //{
-
-    //}
-
-    //public void OnPointerExit(PointerEventData eventData) 
-    //{
-
-    //}
-
-    //public void OnPointerUp(PointerEventData eventData) 
-    //{
-
-    //}
 }
