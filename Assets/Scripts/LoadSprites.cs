@@ -7,7 +7,7 @@ public class LoadSprites : MonoBehaviour
     public GameObject[] spriteRenderer;
     public string[] strings;
 
-    public void load() 
+    public void Load() 
     {
         for (int i = 0; i < spriteRenderer.Length; i++) 
         {
@@ -15,7 +15,7 @@ public class LoadSprites : MonoBehaviour
         }
     }
 
-    IEnumerator LoadSprite(SpriteRenderer spriteRenderer, int number) 
+    private IEnumerator LoadSprite(SpriteRenderer spriteRenderer, int number) 
     {
         var task = Addressables.LoadAssetAsync<Sprite>(strings[number]);
         yield return task;
