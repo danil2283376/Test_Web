@@ -465,28 +465,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cf067bb32e735ae4484c28e753a29cd3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  spriteRenderer:
-  - {fileID: 1203451396}
-  - {fileID: 31387251}
-  - {fileID: 685303888}
-  - {fileID: 1968271868}
-  - {fileID: 876495799}
-  - {fileID: 1967889540}
-  - {fileID: 168487877}
-  - {fileID: 612153926}
-  - {fileID: 1029672303}
-  - {fileID: 469538904}
-  strings:
-  - Assets/Sprites/Image 1.jpg
-  - Assets/Sprites/Image 2.jpg
-  - Assets/Sprites/Image 3.jpg
-  - Assets/Sprites/Image 4.jpg
-  - Assets/Sprites/Image 5.jpg
-  - Assets/Sprites/Image 6.jpg
-  - Assets/Sprites/Image 7.jpg
-  - Assets/Sprites/Image 8.jpg
-  - Assets/Sprites/Image 9.jpg
-  - Assets/Sprites/Image 10.jpg
+  SpriteRenderer:
+  - {fileID: 1203451398}
+  - {fileID: 31387253}
+  - {fileID: 685303890}
+  - {fileID: 1968271870}
+  - {fileID: 876495801}
+  - {fileID: 1967889542}
+  - {fileID: 168487879}
+  - {fileID: 612153928}
+  - {fileID: 1029672305}
+  - {fileID: 469538906}
+  strings: []
 --- !u!1 &266573016
 GameObject:
   m_ObjectHideFlags: 0
@@ -1483,7 +1473,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\u041A\u041D\u041E\u041F\u041A\u0410"
+  m_text: Button
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8df668e112519e545a6db00a927f03a4, type: 2}
   m_sharedMaterial: {fileID: -8944219538524964536, guid: 8df668e112519e545a6db00a927f03a4, type: 2}
